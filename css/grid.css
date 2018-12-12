@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+
+.row{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"]{
+  float: left;
+  padding: 20px;
+  //*border: 1px solid red;*//
+}
+
+
+
+.container{
+  width: 98%;
+  margin: 0 auto;
+}
+
+.container-fluid{
+  width: 100%;
+  margin: 0 auto;
+}
